@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int main(int argc, char *argv[])
 {
-    float base, altura, perimetro, area;
+    double base, altura, perimetro, area;
     printf("Entre com a base: ");
     scanf("%1f",&base);
     printf("Entre com a altura: ");
@@ -14,3 +14,4 @@ int main(int argc, char *argv[])
     system("PAUSE");
     return 0;
 }
+
