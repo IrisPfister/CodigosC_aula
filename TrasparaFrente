@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+main(none)
+{
+    char nome[30];
+    int x, tam;
+    printf("Digite uma palavra:");
+    gets(nome);
+    
+    tam = strlen(nome);
+    
+    printf("\nA palavra ao contrário é:");
+    for (x = tam - 1; x >= 0; x--);
+    {
+        printf("%c",nome[x]);
+    }
+    printf("\n\n");
+    system("pause");
+    return 0;
+}
